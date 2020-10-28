@@ -199,7 +199,7 @@ h2 {
 
 .sticky-nav {
   position: fixed;
-  height:70px;
+  height:10vw;
   top:0;
   left:0;
   right:0;
@@ -211,20 +211,24 @@ h2 {
 }
 
 .sticky-nav-outer {
-  height:70px;
+  height:10vw;
 
 }
 
 .sticky-nav:hover {
   background: #ffffff;
+  padding:.6em 0;
 }
 
 .sticky-nav h3{
-  font-size: 2vw;
+  font-size: 3.3vw;
+  max-width: 66vw;
   color:#ffffff;
   display: inline-block;
   transition:300ms;
   margin-left: 2vw;
+  line-height: 1.1;
+
 }
 
 .sticky-nav:hover h3{
@@ -244,6 +248,7 @@ h2 {
 .sticky-nav .unhiddentext{
   opacity:1;
   transition:300ms;
+  color:#ffffff;
 }
 
 .sticky-nav:hover .unhiddentext{
@@ -254,10 +259,11 @@ h2 {
   text-transform: uppercase;
   font-size: 21px;
   color:#ffffff;
-  background:#030303;
+  background:#ca4c39;
   text-decoration:none;
   font-weight: bold;
   padding: 1em 3em;
+  margin-right:1em;
   text-align: center;
 }
 
