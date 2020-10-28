@@ -144,12 +144,14 @@ h2 {
 
    .question-card {
      padding:2vw;
-     background:#ca4c39;
+     background-color:#ca4c39;
      color:#ffffff;
      cursor: pointer;
      transition:300ms;
      height:30vw;
-
+     background-image:url(../img/arrow.svg);
+     background-position: right 2em bottom 2em;
+     background-repeat: no-repeat;
    }
 
     .question-card:nth-child(3n+1) {
@@ -166,7 +168,7 @@ h2 {
 
    .question-card:hover {
      padding:2vw;
-     background:#030303;
+     background-color:#030303;
      color:#ca4c39;
      transform:scale(1) rotateZ(0deg);
    }
@@ -315,12 +317,13 @@ h2 {
 .closelink {
     padding:1em;
     color:#ca4c39;
+    cursor: pointer;
 }
 
 .closelink-wrapper {
   position: fixed;
   bottom:4em;
-  right:0;
+  right:4em;
   z-index: 9999;
   opacity:0;
   pointer-events: none;

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M36.5,0.75 C16.7558202,0.75 0.75,16.7558202 0.75,36.5 C0.75,56.2441798 16.7558202,72.25 36.5,72.25 C56.2441798,72.25 72.25,56.2441798 72.25,36.5 C72.25,16.7558202 56.2441798,0.75 36.5,0.75 Z M36.5,5.25 C53.7588984,5.25 67.75,19.2411016 67.75,36.5 C67.75,53.7588984 53.7588984,67.75 36.5,67.75 C19.2411016,67.75 5.25,53.7588984 5.25,36.5 C5.25,19.2411016 19.2411016,5.25 36.5,5.25 Z" id="Oval-Copy"></path>
+            <polygon id="Path" transform="translate(37.625000, 35.375000) rotate(45.000000) translate(-37.625000, -35.375000) " points="53.25 19.75 53.25 51 48.75 51 48.75 24.25 22 24.25 22 19.75"></polygon>
+            <polygon id="Line" points="55.75 34.25 55.75 38.75 15.25 38.75 15.25 34.25"></polygon>
+        </g>
+    </g>
+</svg>
