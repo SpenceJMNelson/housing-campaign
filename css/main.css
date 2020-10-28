@@ -308,6 +308,10 @@ h2 {
   color:#ca4c39
 }
 
+.info-modal p,.info-modal li{
+  opacity:.9;
+}
+
 .closelink {
   position: fixed;
   bottom:0;
