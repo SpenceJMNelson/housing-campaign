@@ -304,7 +304,7 @@ h2 {
   padding:3em;
 }
 
-.info-modal-content {
+#info-modal-content {
   margin:100px auto;
   max-width: 900px;
 }
