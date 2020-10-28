@@ -5,3 +5,10 @@ $( document ).ready(function() {
     $("#info-modal-content").load(`/housing-campaign/fragments/${theCardId}.html`);
   });
 });
+
+
+$( document ).ready(function() {
+  $( ".closelink").click(function() {
+    $( ".info-modal, body" ).toggleClass( "active" );
+  });
+});
