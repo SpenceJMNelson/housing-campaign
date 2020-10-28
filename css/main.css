@@ -313,10 +313,22 @@ h2 {
 }
 
 .closelink {
+    padding:1em;
+    color:#ca4c39;
+}
+
+.closelink-wrapper {
   position: fixed;
-  bottom:0;
+  bottom:4em;
   right:0;
-  padding:3em;
+  z-index: 9999;
+  opacity:0;
+  pointer-events: none;
+}
+
+.closelink-wrapper.active {
+  opacity:1;
+  pointer-events: all;
 }
 
 #info-modal-content {
