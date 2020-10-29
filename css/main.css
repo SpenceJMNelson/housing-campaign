@@ -167,7 +167,6 @@ h2 {
     }
 
    .question-card:hover {
-     padding:2vw;
      background-color:#030303;
      color:#ca4c39;
      transform:scale(1) rotateZ(0deg);
@@ -338,20 +337,106 @@ h2 {
 #info-modal-content {
   margin:200px auto;
   max-width: 800px;
+  padding:1em;
+}
+
+.footer {
+  margin-top:50px;
+  margin-bottom: 50px;
 }
 
 .footercolumns {
   max-width: 800px;
   display: flex;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .footercolumns .footer-image{
   margin:0px 25px;
+  width:20%;
 }
 
 .footercolumns .footer-image img{
   width:100%;
+}
+
+@media screen and (max-width: 600px) {
+
+  .question-card-array {
+
+     display: block;
+   }
+  .question-card {
+    padding:2vw;
+    background-color:#ca4c39;
+    color:#ffffff;
+    cursor: pointer;
+    transition:300ms;
+    height:auto;
+    background-image:url(../img/arrow.svg);
+    background-size: 40px;
+    background-position: right 1em bottom 1em;
+    background-repeat: no-repeat;
+    padding-right: 3em
+  }
+
+   .question-card:nth-child(3n+1) {
+     transform:scale(.9) rotateZ(1deg);
+   }
+
+   .question-card:nth-child(3n+2) {
+     transform:scale(.9) rotateZ(-1deg);
+   }
+
+   .question-card:nth-child(3n+3) {
+     transform:scale(.9) rotateZ(0deg);
+   }
+
+   .question-card h2{
+     font-size: 2em;
+   }
+
+   .question-card h3{
+     font-size: 2em;
+   }
+   #why-tents h2,#internet-access h2,#stay-shelter h2{
+     font-size: 2em;
+   }
+
+   #info-modal-content {
+     margin:100px auto;
+   }
+
+   .info-modal h2{
+     font-size: 34px;
+   }
+
+   .sticky-nav h3{
+     font-size: 21px;
+     max-width: 66vw;
+     color:#ffffff;
+     display: inline-block;
+     transition:300ms;
+     margin-left: 2vw;
+     line-height: 1.1;
+
+   }
+
+   .sticky-nav a.button{
+     text-transform: uppercase;
+     font-size: 21px;
+     color:#ffffff;
+     background:#ca4c39;
+     text-decoration:none;
+     font-weight: bold;
+     padding: 1em 1em;
+     margin-right:1em;
+     text-align: center;
+     box-shadow: 0px 0px 30px rgba(0,0,0,.2);
+   }
+
 }
 
 
