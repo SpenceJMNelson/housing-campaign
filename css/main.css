@@ -209,6 +209,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   z-index: 999;
+  background: linear-gradient(to top, rgba(0,0,0,0) 20%,rgba(0,0,0,.5) 100%);
 }
 
 .sticky-nav-outer {
@@ -439,6 +440,28 @@ h2 {
 
    .sticky-nav .hiddentext{
      display: none;
+   }
+   .closelink {
+       padding:1em;
+       width:72px;
+       height:72px;
+       display: block;
+       color:#ca4c39;
+       cursor: pointer;
+       margin:0 auto;
+       margin-top:-70px;
+   }
+
+   .closelink-wrapper {
+     position: fixed;
+     bottom:0;
+     right:0;
+     left:0;
+     height:40px;
+     z-index: 9999;
+     opacity:0;
+     pointer-events: none;
+     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
    }
 
 }
