@@ -267,6 +267,7 @@ h2 {
   padding: 1em 3em;
   margin-right:1em;
   text-align: center;
+  box-shadow: 0px 0px 30px rgba(0,0,0,.2);
 }
 
 .sticky-nav:hover a.button{
@@ -337,6 +338,20 @@ h2 {
 #info-modal-content {
   margin:200px auto;
   max-width: 800px;
+}
+
+.footercolumns {
+  max-width: 800px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footercolumns .footer-image{
+  margin:0px 25px;
+}
+
+.footercolumns .footer-image img{
+  width:100%;
 }
 
 
