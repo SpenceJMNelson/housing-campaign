@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   $( ".question-card").click(function() {
-    alert($(".info-modal").scrollTop());
+    $(".info-modal").scrollTop());
     theCardId = $(this).attr('id');
     $( ".info-modal, body, .closelink-wrapper" ).toggleClass( "active" );
     $("#info-modal-content").load(`/housing-campaign/fragments/${theCardId}.html`);
