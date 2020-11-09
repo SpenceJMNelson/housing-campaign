@@ -315,6 +315,14 @@ h2 {
   opacity:.9;
 }
 
+.info-modal p{
+  margin:.6em 0;
+}
+
+.info-modal li{
+  margin:.3em 0;
+}
+
 .closelink {
     padding:1em;
     color:#ca4c39;
