@@ -6,6 +6,13 @@ $( document ).ready(function() {
   });
 });
 
+$( document ).ready(function() {
+  $( "#sponsorship-link").click(function() {
+    theCardId = $(this).attr('id');
+    $( ".info-modal, body, .closelink-wrapper" ).toggleClass( "active" );
+    $("#info-modal-content").load(`/housing-campaign/fragments/sponsorship.html`);
+  });
+});
 
 $( document ).ready(function() {
   $( ".closelink").click(function() {
