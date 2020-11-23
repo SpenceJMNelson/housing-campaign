@@ -17,6 +17,6 @@ $( document ).ready(function() {
 $( document ).ready(function() {
   $( ".closelink").click(function() {
     $( ".info-modal, body, .closelink-wrapper" ).toggleClass( "active" );
-    $(".info-modal").scrollTop();
+    $(".info-modal").scrollTop(0);
   });
 });
