@@ -222,6 +222,10 @@ h2 {
   padding:.6em 0;
 }
 
+.sticky-nav:hover a.button:hover{
+  color:#ffffff;
+}
+
 .sticky-nav h3{
   font-size: 3vw;
   max-width: 70vw;
@@ -389,7 +393,30 @@ h2 {
   width:100%;
 }
 
+.mobileheading {
+  display: none;
+}
+
+.sticky-nav a{
+  color:#ca4c39;
+}
+
+@media screen and (max-width: 800px) {
+  .hiddentext{
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
+
+  .mobileheading {
+    display: block;
+    font-size:3em;
+    color:white;
+    margin-left:4vw;
+  }
+
 
   .question-card-array {
 
@@ -428,6 +455,8 @@ h2 {
    .question-card h3{
      font-size: 2em;
    }
+
+
    #why-tents h2,#internet-access h2,#stay-shelter h2{
      font-size: 2em;
    }
@@ -440,33 +469,58 @@ h2 {
      font-size: 34px;
    }
 
-   .sticky-nav h3{
-     font-size: 21px;
-     max-width: 66vw;
-     color:#ffffff;
-     display: inline-block;
-     transition:300ms;
-     margin-left: 2vw;
-     line-height: 1.1;
+   .sticky-nav {
+     background: #ffffff;
+     padding:.6em;
+     height:60px;
+     animation:mobilerise 1s;
+     animation-delay: .5s;
+     animation-fill-mode: both;
+   }
 
+   @keyframes mobilerise{
+     from {
+       transform:translateY(-100%);
+     }
+
+     to {
+       transform:translateY(0%);
+     }
+   }
+
+   .sticky-nav:hover {
+     padding:.6em;
+   }
+
+   .sticky-nav-outer {
+     height:80px;
+   }
+
+   .sticky-nav h3{
+     display:none;
+
+   }
+
+   .sticky-nav a{
+     text-align: center;
+     font-size: 1em;
+     color:#ca4c39;
    }
 
    .sticky-nav a.button{
      text-transform: uppercase;
-     font-size: 21px;
+     font-size: 1em;
      color:#ffffff;
      background:#ca4c39;
      text-decoration:none;
      font-weight: bold;
      padding: 1em 1em;
-     margin-right:1em;
+     margin-right:0em;
      text-align: center;
      box-shadow: 0px 0px 30px rgba(0,0,0,.2);
    }
 
-   .sticky-nav .hiddentext{
-     display: none;
-   }
+
    .closelink {
        padding:1em;
        width:72px;
@@ -488,6 +542,14 @@ h2 {
      opacity:0;
      pointer-events: none;
      background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+   }
+
+   .footer {
+     margin-bottom:130px;
+   }
+
+   .footercolumns .footer-image {
+     width:50%;
    }
 
 }
